@@ -23,3 +23,9 @@ public class Rectangle
   {
     return width * height;
   }
+
+public void run()
+{
+    Rectangle rectangle = new Rectangle(5, 6);
+    System.out.println(rectangle.getHeight());
+}
